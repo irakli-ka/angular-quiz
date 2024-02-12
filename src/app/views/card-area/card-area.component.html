@@ -1,0 +1,16 @@
+<section>
+    <mat-card class="card" *ngFor="let movie of response?.results">
+      <mat-card-header>
+        <mat-card-title>{{ movie.title }}</mat-card-title>
+      </mat-card-header>
+      <img *ngIf="movie.image" class="image" mat-card-image [src]="movie.image.url"/>
+      <mat-card-content>
+        <p>
+          Title type - {{ movie.titleType }}
+        </p>
+        <p>
+          Year - {{ movie.year }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </section>

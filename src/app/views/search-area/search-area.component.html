@@ -1,0 +1,8 @@
+<form #searchForm="ngForm" (ngSubmit)="onSearch(searchForm)">
+  <mat-form-field class="example-full-width">
+    <mat-label>Search</mat-label>
+    <input name="title" ngModel matInput />
+  </mat-form-field>
+  <br />
+  <button class="col-12" mat-raised-button color="primary">Search</button>
+</form>
