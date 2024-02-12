@@ -1,13 +1,12 @@
 mat-card {
-    margin:20px;
+  margin: 20px;
 }
 
 .image {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
+  width: 250px;
+  height: auto;
 }
 
 mat-card-title {
-    height: 65px;
+  height: 65px;
 }
